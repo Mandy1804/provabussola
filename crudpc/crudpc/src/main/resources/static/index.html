@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD Computador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Cadastrar Computador</h2>
+
+    <div class="formulario">
+        <input type="text" id="nome" placeholder="Nome">
+        <input type="text" id="cor" placeholder="Cor">
+        <input type="number" id="data" placeholder="Ano Fabricação">
+        <div class="perifericos-opcoes">
+            <label><input type="checkbox" name="periferico" value="Mouse"> Mouse</label>
+            <label><input type="checkbox" name="periferico" value="Teclado"> Teclado</label>
+            <label><input type="checkbox" name="periferico" value="Fone"> Fone</label>
+            <label><input type="checkbox" name="periferico" value="Camera"> Camera</label>
+        </div>
+        <button onclick="salvar()">Salvar</button>
+    </div>
+
+    <h2>Lista</h2>
+    <ul id="lista"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
