@@ -1,0 +1,40 @@
+body{
+font-family:Arial;
+background:brown;
+text-align:center;
+}
+
+button{
+    padding:10px;
+    color: #ffffff;
+    background:#3e3e83;
+    border:none;
+    cursor:pointer;
+}
+
+.container{
+       margin:15px;
+       width:5px;
+       background:#56568a;
+       padding:10px;
+       border-radius:8px;
+}
+
+.computador{
+    border:1px solid #01013c;
+    margin-top:15px;
+    padding:10px;
+    border-radius:8px;
+}
+
+
+h2{
+    text-align:center;
+    text-decoration-color:#8080e0;
+}
+
+input{
+    padding:10px;
+    margin:5px;
+    width:5px;
+}
